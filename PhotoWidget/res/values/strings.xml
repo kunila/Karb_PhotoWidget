@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhotoWidget</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_name_2x4">Photoframe (2x4)</string>
+    <string name="label_name_4x4">Photoframe (4x4)</string>
+    <string name="label_name_2x2">Photoframe (2x2)</string>
+	<string name="pick_file">Pick file</string>
+	<string name="pick_folder">Pick folder</string>
+    <string name="configure_intro">Configuration for PhotoWidget</string>
+	<string name="configure_update">Show time (in seconds)</string>
+	<string name="update_rate_tip">Stay time for each image. Set it "0" if you want to switch image by manual click only.</string>
+	<string name="save_config">Save</string>
+	<string name="no_image_picked">No picture selected</string>
+	<string name="introduction">About PhotoWidget</string>
+	<string name="count_image_picked">%s picture(s)</string>
+	<string name="no_update_rate">Please input a "Show Time" in seconds</string>
+	<string name="AboutUs_Content">\nPhotoWidget\n\n\nDeveloped by Karbens \n</string>
+    <string name="exit">Exit Application</string>
+	<string name="AboutUs_Version" formatted="false">Version: %s build %s\</string>
+    <string name="configure_frame_background">Frame type</string>
+    <string-array name="frame_type_array">
+        <item>White and Thin</item>
+        <item>Black and Thin</item>
+    <!--<item>White and Thick</item>
+        <item>Black and Thick</item> -->
+    </string-array>
+
+</resources>

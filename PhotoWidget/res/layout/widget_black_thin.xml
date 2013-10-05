@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/appwidget_bg_black">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="3dip">
+       
+        <RelativeLayout 
+        android:id="@+id/RelLay"
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        >
+        <!-- 
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="1px"
+            android:foreground="@drawable/photo_inner">
+         -->
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:cropToPadding="true" />
+            
+            <Button 
+                android:id="@+id/configBtn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@id/image"
+                android:layout_alignRight="@id/image"
+                android:background="@drawable/settings"
+                />
+        <!--         
+        </FrameLayout>              
+         -->
+         </RelativeLayout>
+    </FrameLayout>        
+
+</FrameLayout>
